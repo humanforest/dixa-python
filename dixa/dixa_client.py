@@ -1,5 +1,6 @@
 """A Python module for interacting and consuming responses from Dixa."""
-from typing import Optional, Union, Literal
+from typing import Optional, Union
+from typing_extensions import Literal
 
 from pydantic import Field
 from requests import Response
