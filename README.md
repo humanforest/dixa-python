@@ -7,7 +7,7 @@ A Python implementation of the Dixa API.
 Install the package with pip
 
 ```bash
-  pip install dixa
+pip install dixa
 ```
 
 ## Usage/Examples
@@ -24,7 +24,7 @@ client = DixaClient(api_key="<DIXA_API_KEY>")
 # Get users by id, email or phone
 user_by_id = client.get_end_users(user_id="abcd1234")
 user_by_email = client.get_end_users(email="john.doe@example.com")
-user_by_phone = client.get_end_users(phone="+447357000000")
+user_by_phone = client.get_end_users(phone_number="+447357000000")
 
 # Get all users
 all_users = client.get_all_end_users()
